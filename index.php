@@ -1,13 +1,13 @@
 <html>
 	<head>
-		<title>hi		</title>
+		<title>hi</title>
 	</head>
 	
 	<body>
 		<h1>Hi</h1>
 		<script type="text/javascript">
 			var urlParams = document.URL.split('?');
-			var redirectUrl = 'http://localhost:13060/Apps/AssetAlgoWS/OrtegaCapital/';
+			var redirectUrl = 'http://yardsale.druidinc.com/';
 
 			if(urlParams.length > 1) {
 				var params = urlParams[1].split('&');
@@ -24,9 +24,9 @@
 				}
 			}
 
-			alert(redirectUrl);
+			console.log(redirectUrl);
 
-			window.top.location.href = redirectUrl + '#register';
+			window.top.location.href = redirectUrl + '#home';
 		</script>
 	</body>
 
